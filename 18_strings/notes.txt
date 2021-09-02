@@ -112,3 +112,13 @@ digunakan untuk membandingkan dua string.
 - Jika string 1 sama dengan string 2, maka bernilai 0
 - jika string 2 lebih besar dari string 1, maka bernilai 1
 contoh : string_compare.go
+
+
+String trim
+------------------------------------------------------------
+contoh : string_trim.go
+
+
+String Contains Any
+---------------------------------------------
+contoh : string_contain_any.go
