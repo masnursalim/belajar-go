@@ -23,3 +23,7 @@ https://yourbasic.org/golang/
 https://www.calhoun.io/
 https://adityarama1210.medium.com/
 https://mkaz.blog/working-with-go/
+https://qvault.io/category/golang/
+
+
+https://masnursalim:ghp_D0cN2kJWw8oJfWaOMmGZEFpWRC9iq8x1z4Dx4Np02031@github.com/masnursalim/belajar-go.git

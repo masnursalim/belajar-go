@@ -94,3 +94,21 @@ syntax : strings.Count(str, substr)
 contoh : string_count.go
 
 
+String Replace
+-------------------------
+contoh : string_replace.go
+
+
+String split
+--------------------------------------------------
+digunakan untuk memecah string berdasarkan separator atau pemisah
+contoh : string_split.go
+
+
+String compare
+------------------------------------------------------------
+digunakan untuk membandingkan dua string.
+- Jika string 1 lebih kecil dari string 2, maka bernilai -1
+- Jika string 1 sama dengan string 2, maka bernilai 0
+- jika string 2 lebih besar dari string 1, maka bernilai 1
+contoh : string_compare.go
