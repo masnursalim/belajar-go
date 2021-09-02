@@ -64,3 +64,33 @@ String Join
 - Untuk menggabungkan beberapa elemen array/slice di string dengan karakter atau substring
   dengan menggunakan fungsi strings.Join(str,substr)
 contoh : string_join.go  
+
+String Repeat
+-------------------------------------------------------------------------------
+- Digunakan untuk mengulang string sebanyak yang dibutuhkan dengan menggunakan fungsi
+  strings.Repeat(str,num)
+  contoh : string_repeat.go
+
+
+String Index
+--------------------------------------------------------------------------------
+Digunakan untuk mencari posisi string atau potongan string dari sebuah string.
+strings.Index(str, substr)
+contoh : string_index.go
+
+
+String contains
+----------------------------------------------------------------------------------
+Digunakan untuk mengecek sebuah string apakah mengandung potongan string atau tidak.
+bernilai true atau false
+strings.Contains(str, substr)
+contoh : string_contains.go
+
+
+String count
+----------------------------------------
+digunakan untuk menghitung jumlah potongan string dalam string utuh.
+syntax : strings.Count(str, substr)
+contoh : string_count.go
+
+
