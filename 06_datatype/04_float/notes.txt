@@ -1,0 +1,12 @@
+- Tipe data float digunakan untuk menyimpan data numerik baik positif dan negatif dengan nilai
+  desimal
+  spt : 31.4, -32.123, dsb
+
+- Di Go ada 2 jenis tipe data float:
+  1. float32 : 32 bytes -3.4e+38 to 3.4e+38.
+  2. float64 : 64 bytes -1.7e+308 to +1.7e+308.
+
+  defaultnya adalah float64
+
+  contoh : float32.go
+           float64.go  

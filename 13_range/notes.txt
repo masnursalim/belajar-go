@@ -1,0 +1,21 @@
+- range digunakan untuk melakukan looping pada array, slice ataupun map. range akan mengembalikan
+  index dan value
+
+- sintaks:
+    for index, value := range array|slice|map {
+        // code to be executed for each iteration
+    }
+
+contoh : range.go
+
+Apabila tidak mau menggunakan index, maka index dapat diganti dengan _
+contoh : omit_index.go
+
+Anda juga boleh tanpa value, hanya menampilkan index dengan mengganti value dengan _
+contoh : omit_value.go
+
+
+Range in map
+------------------------------------------
+- Di Go, kita bisa melakukan proses iterasi map menggunakan range
+contoh : range_map.go

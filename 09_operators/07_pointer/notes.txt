@@ -1,0 +1,7 @@
+- Ada 2 operator yang berkaitan dengan pointer, yaitu:
+  1. & : mengembalikan alamat dari variable
+     cth &a, menampilkan alamat dari variable a
+  2. * : operator pointer ke variable
+     *a : provide pointer ke variable a
+
+contoh : operator_pointer.go        

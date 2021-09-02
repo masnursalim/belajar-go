@@ -1,0 +1,24 @@
+- Di dalam programming, variable scoping merupakan proses penempatan variable apakah
+  termasuk local variable, global variable, ataupun di function definition atau formal
+  variable
+
+
+Local Variable
+--------------------------------------------
+- Local variable adalah variable yang di definisikan didalam function atau kode blok.
+  karena cakupannya lokal, maka hanya bisa diakses secara local
+
+contoh : local_variable.go
+
+
+Global variable
+-----------------------------------------------------------
+- global variable adalah variable yg didefinisikan diluar fungsi. biasany pada top kode program
+- global variable dapat diakses di dalam function.
+contoh : global_variable.go
+
+
+Formal parameter
+-----------------------------------------------------------
+- Formal parameter di treat sbg local variable di dalam function
+- contoh : formal_parameter.go

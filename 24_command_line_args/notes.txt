@@ -1,0 +1,10 @@
+- Ketika kita ingin mengeksekusi sebuah program dg beberapa argumen, biasanya kita menggunakan
+  command line argumen.
+- Go Support command line argument
+- Argumen yang dilempar dari console dapat diterima oleh Go sebagai input
+The os.Args is used to get the arguments. The index 0 of os.Args contains the path of the program.
+
+The os.Args[1:] holds provided arguments.
+
+contoh : command_line_arg.go
+         command_line_arg2.go

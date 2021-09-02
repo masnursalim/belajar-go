@@ -1,0 +1,18 @@
+Argument dalam sebuah fungsi ada 2 macam:
+1. Call by value
+   Metode ini menyalin nilai sebenarnya dari suatu argumen ke dalam parameter formal fungsi. 
+   Dalam hal ini, perubahan yang dibuat pada parameter di dalam fungsi tidak berpengaruh 
+   pada argumen.
+
+   secara default Go menggunakan metode call by value
+
+   contoh : call_by_value.go
+
+2. Call by reference
+   Metode ini menyalin alamat argumen ke dalam parameter formal. 
+   Di dalam fungsi, alamat digunakan untuk mengakses argumen aktual yang digunakan 
+   dalam panggilan. Ini berarti bahwa perubahan yang dilakukan pada parameter 
+   mempengaruhi argumen.
+
+   contoh : call_by_reference.go
+  

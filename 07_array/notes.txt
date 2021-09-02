@@ -1,0 +1,88 @@
+- Tipe data array digunakan untuk menyimpan banyak nilai dari tipe data yang sama.
+
+Deklarasi Array
+--------------------------
+- Di Go ada 2 macam deklarasi array
+  1. menggunakan var keyword
+
+     var array_name = [length]dataype{values}   // length nya di definisikan
+     var array_name = [...]datatype{values}     // length is inferred
+
+  2. Menggunakan tanda := 
+     array_name := [length]datatype{values} // here length is defined
+     array_name := [...]datatype{values} // here length is inferred (pjg tergantung value)
+
+  contoh : array.go
+           inferred_array.go
+
+
+Akses elemen Array
+--------------------------------------------------------------------------------
+- untuk mengakses elemen di array, menggunakan index. Index di Go diawali dengn 0
+  contoh: akses_elemen_array.go
+
+
+Ubah nilai Elemen Array
+--------------------------------------------------------------------------------
+kita bisa mengubah nilai pada elemen dengan menggunakan index yang akan diakses  
+
+
+Inisialisasi Array
+---------------------------------------------------
+Jika sebuah array tidak dinisialisasi elemen2nya, maka akan menampilkan nilai default
+jika int bernilai 0, dan jika string bernilai ""
+
+contoh : array_initialization.go
+
+
+Inisialisasi Untuk spesifik elemen
+----------------------------------------------
+Di Go, kita bisa menginisialisi array untuk spesifik elemen.
+contoh : array_spesific_initialization.go
+
+
+Panjang Array
+------------------------------------------------------
+untuk menampilkan panjang array, kita menggunakan fungsi len
+contoh : panjang_array.go
+
+
+Membuat Array dari Looping
+-----------------------------------------------------------
+kita dapat membuat array dari looping.
+contoh : array_looping.go
+
+
+Membuat Array Multi Dimensi
+--------------------------------------------------------------
+Di Go juga support array multi dimensi
+sintak:
+  var arrayName [ x ][ y ] variable_type
+  
+  contoh:
+  a = [3][4]int  
+
+Initializing 2 dimensi array
+a = [2][3]int {
+    {2, 4, 6},
+    {1, 3, 5},
+}
+
+Mengakse elemen array 2 dimensi
+int val = a[1][2]
+
+contoh : array_multi_dimensi.go
+
+
+Array sebagai fungsi parameter
+-----------------------------------
+Sintak :
+  void myFunction(param [10]int) {
+    ...
+  }
+
+  void myFunction(param []int) {
+    ...
+  }
+
+contoh : array_param_function.go  

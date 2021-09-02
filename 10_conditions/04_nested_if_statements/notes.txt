@@ -1,0 +1,10 @@
+- Nested if atau if bersarang adalah if di dalam if
+- Sintaks:
+    if condition1 {
+        // code to be executed if condition1 is true
+        if condition2 {
+            // code to be executed if both condition1 and condition2 are true
+        }
+    }
+
+contoh : nested_if.go    

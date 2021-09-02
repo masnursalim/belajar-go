@@ -1,0 +1,24 @@
+Return Value
+-----------------------------------------------------------------------------
+- Sebuah function dapat mengembalikan sebuah nilai seperti int, string, etc.
+- Untuk mengembalikan nilai menggunakan keyword return
+
+syntax:
+    func FunctionName(param1 type, param2 type) type {
+        // code to be executed
+        return output
+    } 
+
+contoh : function_return.go
+
+
+Named Return Value
+----------------------------------
+Di Go, kita dapat memberi nama pada return value
+contoh : function_named_return.go
+
+
+Multiple Return Value
+------------------------------
+Di Go, function dapat mengembalikan multiple value
+contoh : function_return_multiple.go

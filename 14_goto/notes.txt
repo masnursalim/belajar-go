@@ -1,0 +1,10 @@
+- goto statement digunakan pada for loop untuk melompat ke dalam goto label apabila kondisi
+  tertentu
+
+- sintak:
+    goto label;
+    ..
+    .
+    label: statement; 
+
+contoh : goto.go     

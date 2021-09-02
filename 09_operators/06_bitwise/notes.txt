@@ -1,0 +1,7 @@
+- Bitwise Operator digunakan dalam bilangan biner
+- Ada beberapa operator bitwise di Go
+  1. & (AND)
+  2. | (OR)
+  3. ^ (XOR)
+
+contoh bitwise.go

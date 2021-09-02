@@ -1,0 +1,30 @@
+- Penggunaan function dapat digunakan dalam beberapa cara:
+  1. Function as value
+  2. Function Closure
+  3. Method
+
+
+Function as value
+---------------------------------------------------------------------------
+- Di Go, dapat membuat fungsi sebagai value dan simpan ke dalam variable
+  contoh: function_as_value.go
+
+
+Function Closure
+----------------------------------------------------------------------------
+- function closure adalah anonymous function yang dapat digunakan dalam dynamic
+  programming
+- function closure biasanya digunakan untuk membuat function yang mengembalikan function juga
+  contoh : function_closure.go
+           function_closure2.go
+
+Method
+-------------------------
+- Di Go, kita dapat membuat function yang dipanggil sebagai method.
+- Sintaks:
+
+    func (variable_name variable_data_type) function_name() [return_type]{
+    /* function body*/
+    }
+
+contoh : function_method.go    

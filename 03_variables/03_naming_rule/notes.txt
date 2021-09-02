@@ -1,0 +1,17 @@
+- Aturan penamaan variable di Go:
+  1. nama variable harus diawali dengan huruf atau underscore
+  2. nama variable tidak boleh diawali dengan digit
+  3. nama variable hanya boleh mengandung karakter alpanumerik (a-z, A-Z, 0-9 dan _)
+  4. nama variable bersifat case-sensitive
+  5. tidak ada batasan panjang variable
+  6. tidak booleh mengndung spasi
+  7. tidak boleh memakai keyword
+
+- Teknik Penamaan variable:
+  1. Camel case : setiap kata kecuali kata pertama, diawali dengan huruf Besar
+     cth : myVariableName := "John"
+  2. Pascal Case : Setiap kata diawali dengan huruf besar
+     cth : MyVariableName := "John"
+  3. Snake case : Setiap kata dipisah dengan karakter underscore      
+    
+       

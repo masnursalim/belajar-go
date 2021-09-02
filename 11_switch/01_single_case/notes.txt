@@ -1,0 +1,18 @@
+- Gunakan switch statement untuk memilih salah satu blok code yang akan dijalankan
+- Switch di Go mirip dengan bahasa lainnya, hanya saja tidak memiliki break. Secara otomatis
+  akan eksekusi kode blok jika kondisinya sesuai
+
+- Sintaks:
+    switch expression {
+    case x:
+        // code block
+    case y:
+        // code block
+    case z:
+        ...
+    default:
+        // code block
+    }
+
+ contoh : switch.go
+          switch2.go (inputan dari keyboard)    

@@ -1,0 +1,12 @@
+- Operator digunakan untuk melakukan operasi pada variable
+- operator + digunakan untuk menambahkan 2 nilai
+
+contoh : operator1.go
+         operator2.go
+
+- Di Go terbagi dalam beberapa operator:
+  1. operator aritmatika
+  2. operator penugasan (asignment)
+  3. operator perbandingan (comparison)
+  4. operator logika (logical)
+  5. operator bitwise         

@@ -1,0 +1,37 @@
+- di Go, ada beberapa tipe variable
+  int 
+  float32
+  string
+  bool
+
+- deklarasi variable di Go ada 2 cara:
+  1. menggunakan keyword var
+     syntax:
+     var variablename type = value
+
+  2. menggunakan tanda :=
+     variablename := value
+
+  cth : variable_with_initial.go   
+
+- Jika sebuah variable di deklarasikan tanpa menggunakan nilai/value,
+  maka ketika di print secara otomatis akan menampilkan nilai default nya.
+  string -> ""
+  int    -> 0
+  bool   -> false
+  float32 -> 0
+
+  cth : variable_without_initial.go
+
+- Kita juga bisa meng assign value setelah deklarasi variable
+  cth : assign_after_declare.go
+
+- Perbedaan antara var dan :=
+  var :
+    - dpt digunakan di dalam dan diluar function
+    - deklarasi variable dan pemberian nilai dilakukan secara terpisah
+  :=                  
+    - hanya bisa digunakan di dalam function
+    - deklarasi variable dan pemberian nilai tidak bisa dilakukan secara terpisah
+
+  cth : var_demo.go  

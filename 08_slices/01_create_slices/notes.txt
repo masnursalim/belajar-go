@@ -1,0 +1,54 @@
+- Slice merupakan tipe data mirip Array tapi lebih powerfull dan flexible
+- Namun tidak seperti array, panjang slice dapat bertambah dan berkurang (flexible)
+- Di Go, ada beberapa cara untuk membuat sebuah Slice
+  1. Menggunakan format []datatype{values}
+  2. Membuat slice dari sebuah Array
+  3. menggunakan fungsi make()
+
+Membuat Slice menggunakan format []datatype{values}
+-------------------------------------------------
+sintak:
+slice_name := []datatype{values}
+
+cth:
+myslice := []int
+- membuat slice dengan slice kosong dengan pj 0 dan kapasitas 0
+
+untuk menginisialisasi slice selama deklarasi
+myslice := []int{1,2,3}
+- membuat slice dengan slice integer dengan pj 3 dan kapasitas 3
+
+Di Go ada 2 fungsi yang digunakan di slice:
+1. len()    : menampilkan panjang slice (number of elemen)
+2. cap()    : menampilkan kapasitas (number of elemen dimana slice dpt bertambah atau
+              menyusut)
+
+contoh : slice1.go
+
+
+Membuat Slice Dari Sebuah Array
+------------------------------
+var myarray = [length]datatype{values} // An array
+myslice := myarray[start:end] // A slice made from the array
+
+contoh : slice_from_array.go
+
+
+Membuat Slice Menggunakan Fungsi make()
+-----------------------------------------------------
+sintak:
+    slice_name := make([]type, length, capacity)
+
+jika capacity tidak didefine, maka akan sama dengan length
+
+contoh : create_slice_make.go
+
+
+Nil Slice
+----------------------------------------------------------
+- jika sebuah slice di declare tanpa value, maka by default diinisialisasi sebagi nil.
+- sehingga length dan capacity nya 0.
+
+contoh : nil_slice.go
+
+

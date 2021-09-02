@@ -1,0 +1,19 @@
+- Regex atau regular expression adalah salah satu built-in package untuk proses pencarin string
+  berdasarkan pola tertentu.
+
+- Untuk membuat regex object dapat di retrive dengan fungsi compile() dan mustcompile().
+  sedangkan untuk mencari string berdasarkan polanya, kita dapat menggunakan fungsi 
+  FindString(), FindStringSubmatch() dan FindStringIndex(), etc
+
+
+Regex FindString()
+---------------------------------------------------
+- Fungsi FindString()
+  mengembalikan sebuah string yang match dengan patternya. Jika tidak match akan mengembalikan
+  string kosong.
+  contoh : regex_findstring.go
+
+
+Regex FindStringIndex()
+- Menampilkan index dari string yang dicari sesuai dengan patternnya
+  contoh : regex_findstring_index.go      

@@ -1,0 +1,16 @@
+- Function adalah blok kode yang dapat digunakan berulang-ulang di dalam program
+- Untuk membuat function di Go menggunakan keyword func
+- function yang sama dapat dipanggil berulang-ulang
+- Sintak:
+    func FunctionName() {
+        // code to be executed
+    }
+
+contoh : function.go
+
+Aturan Penamaan function
+-------------------------------
+1. nama function harus diawali dengan huruf
+2. nama function hanya boleh alpanumerik dan undescore (A-z, 0-9, dan _)
+3. nama function case sensitive
+4. nama function tidak boleh mengandung spasi

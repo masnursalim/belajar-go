@@ -1,0 +1,41 @@
+- For Loop akan melakukan proses looping apabila kondisi terpenuhi
+- Sintaks:
+    for statement1; statement2; statement3 {
+        // code to be executed for each iteration
+    }
+
+keterangan :
+   statement1 : inisialisasi loop counter value
+   statement2 : cek kondisi untuk setiap iterasi. Jika bernilai true, maka proses loop
+                dilanjutkan, sebaliknya proses berhenti
+   statement3 : incremental counter loop
+
+contoh : for_loop.go
+         for_loop2.go
+
+
+continue
+-----------------------------------------------
+contine digunakan untuk meng-skip proses iterasi di dalam loop. kemudian melanjutkan proses
+looping
+
+contoh : continue.go
+
+
+Break
+-------------------------------------------------------------------------------
+break digunakan untuk menghentikan looping ketika kondisi terpenuhi
+contoh : break.go
+
+
+Nested loop
+-------------------------------------------------------------------------------
+Nested loop adalah loop didalam loop
+contoh : nested_loop.go
+
+
+Infinite Loop
+--------------------------------------------------------------------------------
+Infinite Loop adalah loop yang berulang-ulang terus sampai dihentikan secara paksa.
+contoh : infinite_loop.go
+ 

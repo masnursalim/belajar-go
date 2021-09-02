@@ -1,0 +1,57 @@
+General Formatting verb
+------------------------------------------------------------------
+- Beberapa tipe pemformatan menggunakan fungsi Printf()
+  1. %v     : untuk memformat value secara default
+  2. %#v    : untuk memformat value dengan sintak Go
+  3. %T     : untuk menampilkan tipe dari value
+  4. %%     : untuk mencetak tanda %
+
+  contoh : general_formatting.go
+
+  Integer formatting verb
+  -------------------------------------------------------
+- Beberapa format untuk tipe data integer
+  1. %b     : Base 2
+  2. %d     : Base 10
+  3. %+d    : Base 10 dan selalu menampilkan tanda
+  4. %o     : Base 8 (oktal)
+  5. %O     : Base 8 diawali dengan 0o
+  6. %x     : Base 16 (lowercase)
+  7. %X     : Base 16 (uppercase)
+  8. %#x    : base 16, diawali dengan 0x
+  9. %4d    : pad with space (width 4, right justified)
+  10. %-4d  : pad with space (width 4, left justified)
+  11. %04d  : pad with zero (width4)
+
+  contoh : integer_formatting.go
+
+String Formatting verb
+-------------------------------------------------------------------------
+- berikut beberapa verb yg digunakan untuk memformat string
+  1. %s     : mencetak value as plain string
+  2. %q     : mencekat value dg double quotes string
+  3. %8s    : mencetak value as plain (width 8, right justified)
+  4. %-8s   : mencetak value as plain (width 8, left justified)  
+  5. %x     : mencetak value as hex dump of bytes String
+  6. % x    : mencetak value as hex dump with space
+  
+  contoh : string_formatting.go
+
+Boolean Formatting verb
+-----------------------------------------------------------------------------
+- berikut beberapa verb yang digunakan untuk memformat boolean
+  1. %t     : untuk menampilkan boolean value sama seperti %v
+
+  contoh : boolean_formatting.go
+
+
+Float Formatting Verb
+-----------------------------------------------------------------------------    
+- beberapa verb yang dapat digunakan dalam tipe data float
+  1. %e     : menampilkan value dalam notasi eksponen
+  2. %f     : menampilkan desimal point, tidak ada eksponen
+  3. %.2f   : default width, eksponen 2
+  4. %6.2f  : width 6, exponen 2
+  5. %g     : exponen as needed
+
+  contoh : float_formatting.go

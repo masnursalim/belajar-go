@@ -1,0 +1,12 @@
+- else statement digunakan untuk menentukan blok kode yg akan dijalankan jika kondisi
+  if bernilai false
+
+- sintaks:
+
+    if condition {
+        // code to be executed if condition is true
+    } else {
+        // code to be executed if condition is false
+    } 
+
+contoh : if_else.go  

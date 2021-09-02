@@ -1,0 +1,66 @@
+- String, di Go merupakan readonly slice dari bytes
+- Ada beberapa libray yang digunakan untuk memanipulasi string di Go:
+  1. unicode
+  2. regexp
+  3. strings
+- String di Go merupakan immutable, ini berarti jika Anda membuat string, Anda tidak
+  dapat memodifikasi konten string tsb.
+- Default value dari string adalah ""    
+
+
+Membuat String
+--------------------------------
+- cara umum membuat string adalah 
+  var greeting = "Hello world!"
+- contoh : string.go  
+
+
+Panjang String
+----------------------------------------
+- untuk menampilkan panjang string dapat menggunakan function len()
+contoh : panjang_string.go
+
+
+Concate String
+------------------------------------------------
+- untuk mengabungkan dua string atau lebih dapat menggunakan fungsi join() dari package
+  "string"
+contoh : concat_string.go  
+
+
+Menampilkan karakter ASCII
+-----------------------------------------------------------------
+contoh : karakter_ascii.go
+
+
+String Upper Case
+----------------------------------------------------------------
+- Untuk mengkonversi string kedalam huruf besar dapat menggunakan fungsi strings.ToUpper(str)
+contoh : string_upper.go
+
+
+String Lower Case
+---------------------------------------------------------------------------------------------
+- Untuk mengkonversi string kedalam huruf besar dapat menggunakan fungsi strings.ToLower(str)
+contoh : string_lower.go
+
+
+String Has Prefix
+-------------------------------------------------------
+- Untuk mengecek apakah sebuah string diawali dengan karakter atau potongan string tertentu
+  dapat menggunakan fungsi strings.HasPrefix(str,substr)
+contoh : string_has_prefix.go
+
+
+String HasSuffix
+---------------------------------------------------------------------------
+- Untuk mengecek apakah sebuah string diakhiri dengan karakter atau potongan string tertentu
+  dapat menggunakan fungsi strings.HasSuffixx(str,substr)
+contoh : string_has_suffix.go
+
+
+String Join
+------------------------------------------------------------------------------
+- Untuk menggabungkan beberapa elemen array/slice di string dengan karakter atau substring
+  dengan menggunakan fungsi strings.Join(str,substr)
+contoh : string_join.go  

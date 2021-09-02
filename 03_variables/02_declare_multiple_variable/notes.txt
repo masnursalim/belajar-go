@@ -1,0 +1,6 @@
+- Di Go, kita dapat mendeklarasikan multiple variable dalam 1 deklarasi
+  cth : multiple_variable1.go (1 tipe data)
+        multiple_variable2.go (banyak tipe data)
+
+- Multiple variable dapat dikelompokkan ke dalam 1 blok/group agar lebih mudah dibaca
+  cth : variable_blok.go

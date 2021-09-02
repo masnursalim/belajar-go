@@ -1,0 +1,11 @@
+- Type casting adalah konversi dari satu tipe data ke tipe data lainnya.
+- Misalkan, konversi dari tipe data float32 ke int ataupun sebaliknya
+contoh : type_casting.go
+
+
+String Converstion
+------------------------------------------
+- Golang memiliki builtin package, yaitu "strconv" untuk mengkonversi tipe data dari string
+  ke numerik.
+
+contoh : string_convertion.go

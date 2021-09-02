@@ -1,0 +1,4 @@
+- Tipe data string digunakan untuk menyimpan kumpulan karakter atau teks.
+- Nilai string harus diapit double quotes
+
+contoh : string.go

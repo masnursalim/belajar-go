@@ -1,0 +1,88 @@
+- Map adalah tipe data yang digunakan untuk menyimpan nilai dalam bentuk key & value
+- Ada beberapa cara untuk membuat map:
+  1. Menggunakan var dan :=
+  2. Menggunakan fungsi make()
+
+- default value dari map adalah nil  
+
+
+Membuat Map dengan var dan :=
+------------------------------------------------------
+Sintak :
+    var a = map[KeyType]ValueType{key1:value1, key2:value2,...}
+    b := map[KeyType]ValueType{key1:value1, key2:value2,...}
+
+contoh : map1.go
+
+
+Membuat Map dengan fungsi make()
+-----------------------------------------------
+sintak:
+    var a = make(map[KeyType]ValueType)
+    b := make(map[KeyType]ValueType)
+
+contoh : map2.go
+
+
+Membuat Empty
+----------------------------------------------
+contoh : empty_map.go
+
+
+Mengakses map
+------------------------------------------------
+untuk mengakse map dg sintak:
+value = map_name[key]
+
+contoh : access_map_element.go
+
+
+Updating map dan Add new elemen
+-------------------------------------------
+untuk mengupdate dan menambahkan elemen dapat dilakukan dg sintaks
+map_name[key] = value
+
+contoh : update_add_map.go
+
+
+Remove Element from map
+---------------------------------------------------
+- untuk menghapus elemen dari map, dapat menggunakan fungsi delete()
+- sintaks
+  delete(map_name, key)
+
+contoh : remove_element_map.go
+
+
+Cek Untuk Spesifik Elemen di Map
+--------------------------------------------------------------------------
+- untuk mengecek apakah key tertentu ada atau tidak dapat menggunakan sintak
+  val, ok :=map_name[key]
+
+contoh : cek_spesifik_elemen_map.go  
+
+
+Map merupakan References
+-------------------------------------------------
+- Map mengacu pada hashtable
+- Apabila dua variable map mengacu pada hash table yang sama, maka apabila salah satu
+  elemen ada perubahan, maka variable lainnya akan berubah
+
+contoh: map_reference.go 
+
+
+Iterate Map
+----------------------------------------------------------
+- untuk melakukan iterasi pada map dapat menggunakan method range
+contoh : map_iterate.go
+
+
+Iterate Map in a specific order
+------------------------------------------------------------
+- Map merupakan struktur data yang tidak berurut. untuk mengurutkannya harus memisahkan
+  struktur datanya
+
+contoh : iterate_map_order.go  
+
+
+

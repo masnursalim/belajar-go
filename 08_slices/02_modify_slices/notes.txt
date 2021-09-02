@@ -1,0 +1,39 @@
+Akses Elemen Slice
+----------------------------------------
+- untuk mengakses elemen slice menggunakan indeks.
+- indeks diawali dari 0 (elemen pertama)
+
+contoh : akses_slice.go
+
+Ubah nilai elemen Slice
+----------------------------------------
+- Anda dapat mengubah nilai pada elemen slice mengacu pada indeksnya
+contoh : ubah_value_slice.go
+
+
+Append Elemen Slice
+--------------------------------
+- Anda dapat menambahkan elemen pada slice dengan menggunakan fungsi append()
+  
+  slice_name = append(slice_name, element1, element2, ...)
+
+contoh : append_slice.go 
+
+
+Append one slice to another slice
+--------------------------------------------------------
+sintak : slice3 = append(slice1, slice2...)
+contoh : append_slice_to_slice.go
+
+
+Change length of slice
+--------------------------------------------------------
+- Tidak seperti array, di Slice memungkinkan untuk mengubah panjang dari slice
+contoh : change_length_slice.go
+
+Copy Slice
+----------------------------------
+untuk mengcopy slice, dapat menggunakan fungsi copy()
+sintak :
+  copy(dest, src)
+contoh : copy_slice.go

@@ -1,0 +1,33 @@
+- interface merupakan salah satu tipe data di Golang yang merepresentasikan kumpulan beberapa
+  method kosong (method signature)
+- struct mengimplementasikan interface untuk membuat method definisi dari interface tsb.
+- interface di Go mirip dengan Polymorphism
+
+Syntax:
+
+/* define an interface */
+type interface_name interface {
+   method_name1 [return_type]
+   method_name2 [return_type]
+   method_name3 [return_type]
+   ...
+   method_namen [return_type]
+}
+
+/* define a struct */
+type struct_name struct {
+   /* variables */
+}
+
+/* implement interface methods*/
+func (struct_name_variable struct_name) method_name1() [return_type] {
+   /* method implementation */
+}
+...
+func (struct_name_variable struct_name) method_namen() [return_type] {
+   /* method implementation */
+}
+
+Contoh : interface.go
+
+

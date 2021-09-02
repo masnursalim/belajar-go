@@ -1,0 +1,4 @@
+- Recursion adalah fungsi yang memanggil dirinya sendiri
+- contoh : factorial.go
+           fibonacci.go
+           

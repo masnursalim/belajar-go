@@ -1,0 +1,6 @@
+- Ada 3 macam operator logika
+  1. &&
+  2. ||
+  3. !
+
+contoh : logical.go  

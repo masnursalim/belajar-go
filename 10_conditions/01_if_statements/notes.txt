@@ -1,0 +1,9 @@
+- if statement digunakan untuk menentukan blok code yang akan dieksekusi jika kondisi bernilai
+  true
+
+- sintaks:
+    if condition {
+        // code to be executed if condition is true
+    }
+
+contoh : if.go      

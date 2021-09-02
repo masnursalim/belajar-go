@@ -1,0 +1,6 @@
+- Tipe data boolean di Go dideklarasikan dengan keyword bool, dan hanya menyimpan nilai
+  true atau false
+
+- defaultnya false
+
+contoh : boolean.go

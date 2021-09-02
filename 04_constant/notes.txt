@@ -1,0 +1,16 @@
+- Jika variable memiliki nilai tetap dan tidak dapat berubah, maka Anda dapat menggunakan
+  keyword const.
+
+- Syntax :
+  const CONSTNAME type = value
+
+- Contoh deklarasi constant di Go
+  constant.go  
+
+- Aturan Penamaan constant
+  1. Mengikuti aturan penamaan variable
+  2. Constant biasanya ditulis dengan huruf besar (untuk membedakan dengan variable)
+  3. Constant dapat di deklarasikan baik di dalam maupun diluar function
+
+- Multiple constant dapat di kelompokkan dalam 1 group/blok
+  Contoh: multiple_constant.go   

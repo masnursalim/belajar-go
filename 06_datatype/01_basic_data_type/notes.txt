@@ -1,0 +1,10 @@
+- Data Type menentukan ukuran dan tipe dari nilai sebuah variable
+- Go merupakan bahasa statically type, artinya 1 variable hanya untuk 1 data type
+  tidak boleh berubah-ubah
+
+- Go memiliki 3 tipe data dasar, yaitu:
+  1. bool
+  2. numeric
+  3. string
+
+  contoh : basic_data_type.go

@@ -1,0 +1,43 @@
+- struct adalah user-defined data type yang digunakan untuk menyimpan data dalam bentuk record
+  contoh record : misalkan sebuah buku yang memiliki atribut id, judul, pengarang, subjek, dsb
+
+- Untuk membuat struct, dapat menggunakan kata kunci type dan struct.
+
+- sintak:
+    type struct_variable_type struct {
+        member definition;
+        member definition;
+        ...
+        member definition;
+    }
+
+- setelah didefinisikan, selanjutnya anda dapat membuat variable dari struct tsb dg sintak
+  variable_name := structure_variable_type {value1, value2...valuen}
+
+- Untuk mengakses member dari struct, dapat menggunakan operator .
+  dengan sintak:
+    variable_name.property
+
+contoh : structure.go
+
+
+Structure as Function argument
+-----------------------------------------------------------
+- di Go, Kita dapat melempar struct sebagai function argumen atau parameter.
+contoh : struct_function_argument.go
+
+
+Membuat Pointer dari Struct
+--------------------------------------------------------------------------
+- Anda dapat menyimpan address dari struct ke dalam variable pointer. dan kemudian
+  Anda tinggal mengakses nilai pointer nya
+
+- sintak
+  var struct_pointer *Books
+
+  struct_pointer = &Book1;
+
+  // untuk mengakses atribut
+  struct_pointer.title;
+
+contoh : pointer_struct.go

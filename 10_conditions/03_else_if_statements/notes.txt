@@ -1,0 +1,18 @@
+- Gunakan else if untuk menentukan sebuah kondisi jika kondisi pertama bernilai false
+- Sintak:
+    if condition1 {
+        // code to be executed if condition1 is true
+    } else if condition2 {
+        // code to be executed if condition1 is false and condition2 is true
+    } else {
+        // code to be executed if condition1 and condition2 are both false
+    }
+- contoh : else_if.go
+
+catatan : jika kondisi 1 dan kondisi 2 bernilai benar, maka hanya kondisi 1 yang akan dieksekusi
+    contoh : else_if2.go
+
+
+Menghitung Nilai Ujian menggunakan inputan keyboard
+-------------------------------------------------------
+contoh : nilai_ujian.go    

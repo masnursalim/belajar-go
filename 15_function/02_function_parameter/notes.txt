@@ -1,0 +1,10 @@
+- Function dapat menerima parameter yaitu berupa variable
+- Sintaks:
+    func FunctionName(param1 type, param2 type, param3 type) {
+        // code to be executed
+    } 
+
+    contoh : function_parameter.go
+
+- Sebuah function dapat menerima banyak parameter
+    contoh : function_multi_param.go

@@ -1,0 +1,15 @@
+- = merupakan salah Operator penugasan di Go 
+- Berikut beberapa operator penugasan di Go
+  =
+  +=
+  -=
+  *=
+  /=
+  %=
+  &=
+  |=
+  ^=
+  >>=
+  <<=
+
+ contoh : assignment.go 

@@ -1,0 +1,5 @@
+- Di dalam slice terdapat batas bawah dan batas atas.
+- Sintak:
+  slice[lower-bound:upper-bound]
+
+contoh : subslicing.go  

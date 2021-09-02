@@ -1,0 +1,46 @@
+- Seperti yg kita ketahui, setiap variable adalah sebuah lokasi memori yang memiliki alamat
+  yang dapat diakses dengan operator "&"
+
+contoh : variable_address.go
+
+
+Pointer
+----------------------------------------------------------
+- pointer adalah variable yang nilainya merupakan alamat dari variable lain.
+- Sintak :
+  var var_name *var-type
+
+    var ip *int        /* pointer to an integer */
+    var fp *float32    /* pointer to a float */  
+- contoh : variable_pointer.go
+
+
+Nil Pointer
+----------------------------------------------------------------
+- Di Go, apabila sebuah variable pointer belum diassign sebuah alamat (adress), maka nilainya
+  adalah Nil.
+
+contoh : nil_pointer.go
+
+
+Array Pointer
+-------------------------------------------------------------------
+- contoh sintak deklarasi array pointer
+  var ptr [MAX]*int;
+
+contoh : array_pointer.go  
+
+
+Pointer To Pointer
+---------------------------------------------------
+- Adalah pointer yang berisi dari alamat pointer lainnya
+- Deklarasi:
+  var ptr **int;
+
+contoh: pointer_to_pointer.go
+
+
+Passing Pointer to Function
+--------------------------------------------------------
+- Di Go, Anda dapat melempar pointer ke dalam function sebagai parameter.
+contoh : passing_pointer_function.go

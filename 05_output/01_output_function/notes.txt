@@ -1,0 +1,18 @@
+- Go memiliki 3 jenis output function
+  1. Print()
+  2. Println()
+  3. Printf()
+
+- Print()
+  digunakan untuk mencetak ke layar monitor tanpa pindah baris
+  contoh : print.go
+
+- Print()
+  sama dengan print(), tetapi akan melakukan pindah baris
+  contoh : println.go
+
+- Printf()
+  digunakan untuk memformat tampilan. Ada 2 ipe yang biasa digunakan:
+  1. %v digunakan untuk mencetak value dari variable
+  2. %T digunakan untuk mencetak tipe dari variable
+  contoh : printf.go       
