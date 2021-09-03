@@ -19,6 +19,7 @@
     variable_name.property
 
 contoh : structure.go
+         structure2.go
 
 
 Structure as Function argument
@@ -41,3 +42,10 @@ Membuat Pointer dari Struct
   struct_pointer.title;
 
 contoh : pointer_struct.go
+
+
+Embedded Struct
+--------------------------------------------------
+Di Go dapat, kita dapat memasukkan struct ke dalam struct. Bisa dibilang sebagai inheritance
+yang sederhana.
+contoh : struct_embedd.go
