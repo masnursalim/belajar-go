@@ -1,0 +1,3 @@
+- Go Rune adalah tipe alias untuk tipe data int32.
+- Jika anda menyimpan nilai string kedalam rune, maka akan menampilkan karakter ASCII.
+contoh : go_rune.go
