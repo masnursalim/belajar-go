@@ -1,0 +1,6 @@
+- Go Reflection adalah kemampuan sebuah program untuk memeriksa strukturnya, khusunya melalui
+  tipe nya.
+- Reflection dapat digunakan untuk memeriksa tipe dan variable pada saat runtime, seperti
+  ukurannya, method yang dimiliki dan juga dapat memanggil method-method secara dinamis
+
+contoh : go_reflect.go    
